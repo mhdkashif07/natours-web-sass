@@ -98,9 +98,13 @@ const Card = () => {
             </div>
           </div>
         </Grid>
-
-
+        
       </Grid>
+
+      <div className="btn_container u-text-center u-margin-top-huge">
+            <a href="" className="btn btn_green">Discover all tours</a>
+        </div>
+
     </div>
   );
 };

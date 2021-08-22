@@ -3,11 +3,13 @@
 
   -webkit-perspective: 150rem;
   perspective: 150rem;
-  height: 50rem;
+  height: 52rem;
   position: relative;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 
   &__side {
-    height: 50rem;
+    height: 52rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -97,35 +99,35 @@
         font-size: 1.5rem;
         padding: 1rem;
 
-        &:not(:last-child){
-            border-bottom: 1px solid $color-grey-light-2;
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
         }
       }
     }
   }
 
-  &__cta{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 90%;
-      text-align: center;
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
   }
 
-  &__price-box{
-      text-align: center;
-      color: $color-white;
-      margin-bottom: 8rem;
+  &__price-box {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 8rem;
   }
 
-  &__price-only{
-      font-size: 1.4rem;
-      text-transform: uppercase;
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
   }
 
-  &__price-value{
-      font-size: 6rem;
-      font-weight: 100;
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
   }
 }
