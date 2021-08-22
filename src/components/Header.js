@@ -20,7 +20,7 @@ const Header = () => {
               <span className="heading__primary_sub">is where life happens</span>
             </h1>
           </div>
-          <div><Button /></div>
+          <div><Button text="Discover our tours" /></div>
         </div>
       </div>
     </div>

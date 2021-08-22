@@ -148,6 +148,100 @@ body {
     .composition__photo:hover .composition__photo__photo:not(:hover) {
       transform: scale(0.95); }
 
+.feature__box {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  transition: all .3s; }
+  .feature__box-icon {
+    font-size: 6rem; }
+  .feature__box-heading {
+    text-transform: uppercase;
+    margin: 1rem 0; }
+  .feature__box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
+.card {
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  height: 50rem;
+  position: relative; }
+  .card__side {
+    height: 50rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
+      background-color: #fff; }
+    .card__side--back {
+      background-image: linear-gradient(to right, #ffb900, #ff7730);
+      transform: rotateY(180deg); }
+  .card:hover .card__side--front {
+    transform: rotateY(-180deg); }
+  .card:hover .card__side--back {
+    transform: rotateY(0); }
+  .card__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+    .card__picture--1 {
+      background-image: linear-gradient(to right, #ffb900, #ff7730), url(/src/images/nat-5.jpg); }
+  .card__heading {
+    position: absolute;
+    top: 12rem;
+    right: 0;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 75%; }
+  .card__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .card__heading-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+  .card__details {
+    padding: 3rem;
+    margin: 0 auto; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
+
 .header_container {
   position: relative; }
 
@@ -168,6 +262,19 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
+
+.feature__section {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(/src/images/nat-4.jpg);
+  background-size: cover;
+  margin-top: -10rem;
+  transform: skewY(-7deg); }
+  .feature__section > * {
+    transform: skewY(7deg); }
+
+.tours__section {
+  padding: 20rem 0;
+  background-color: #f7f7f7; }
 
 * {
   padding: 0;
