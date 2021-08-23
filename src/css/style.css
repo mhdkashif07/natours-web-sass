@@ -52,6 +52,9 @@ body {
 .u-text-center {
   text-align: center; }
 
+.u-margin-small {
+  margin-bottom: 1.5rem; }
+
 .u-margin-8 {
   margin-bottom: 8rem; }
 
@@ -253,6 +256,57 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.story__card {
+  width: 75%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 6rem;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  font-size: 1.6rem;
+  padding-left: 9rem;
+  transform: skewX(-12deg);
+  margin-bottom: 8rem; }
+  .story__card-shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative; }
+  .story__card-img {
+    height: 100%;
+    transition: all .5s;
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden; }
+  .story__card-text {
+    transform: skewX(12deg); }
+  .story__card-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .5s;
+    opacity: 0; }
+  .story__card:hover .story__card-caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .story__card:hover .story__card-img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .header_container {
   position: relative; }
