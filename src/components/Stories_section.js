@@ -1,16 +1,19 @@
 import React from 'react';
+import BgVideo from './BgVideo';
 import StoryCard from './StoryCard';
 import Title from './Title';
 
 const Stories_section = () => {
     return (
         <section className="stories__section">
-            <div className="stories__container">
-                <div className="u-margin-8 u-margin-top-big">
+             <BgVideo />
+            <div>
+               
+                <div className="u-margin-8">
                 <Title text="WE MAKE PEOPLE GENUINELY HAPPY"/>
                 </div>
                 <StoryCard />
-                <div className="u-text-center u-margin-8">
+                <div className="u-text-center">
                 <a href="" className="btn_text">Learn more &rarr;</a>
                 </div>
             </div>
