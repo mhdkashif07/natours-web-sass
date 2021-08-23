@@ -5,6 +5,7 @@ import '../src/css/style.css'
 import Features_list from "./components/Features_list";
 import Tours from "./components/Tours";
 import Stories_section from "./components/Stories_section";
+import BookSection from "./components/BookSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features_list />
       <Tours />
       <Stories_section />
+      <BookSection />
     </div>
   );
 }
