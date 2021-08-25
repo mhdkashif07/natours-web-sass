@@ -6,6 +6,7 @@ import Features_list from "./components/Features_list";
 import Tours from "./components/Tours";
 import Stories_section from "./components/Stories_section";
 import BookSection from "./components/BookSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Tours />
       <Stories_section />
       <BookSection />
+      <Footer />
     </div>
   );
 }
