@@ -55,7 +55,7 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url(/src/images/nat-5.jpg);
+        var(--img);
     }
   }
 
