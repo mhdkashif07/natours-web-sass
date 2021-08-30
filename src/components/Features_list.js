@@ -41,7 +41,7 @@ const Features_list = () => {
       <div className="feature__list_container">
         <Grid container justifyContent="space-evenly">
           {Features.map((item, index) => (
-            <Grid item xs={8} sm={8} lg={2} xl={2}>
+            <Grid item xs={7} sm={7} md={2} lg={2} xl={2}>
               <div className="feature__box" key={item.id}>
                 <i className="feature__box-icon">
                 <FontAwesomeIcon icon={faGlobe} />

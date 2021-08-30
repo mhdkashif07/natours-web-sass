@@ -28,7 +28,7 @@ const About_us = () => {
         </div>
         <div className="about_us_description">
           <Grid container justifyContent="center">
-            <Grid item xs={10} sm={10} lg={5} xl={5} className="about_item">
+            <Grid item xs={10} sm={10} md={5} lg={5} xl={5} className="about_item">
               <div className="text">
                 {Adventure.map((item, index) => (
                   <>
@@ -41,7 +41,7 @@ const About_us = () => {
               </div>
 
             </Grid>
-            <Grid item xs={10} sm={10} lg={5} xl={5} className="about_item">
+            <Grid item xs={10} sm={10} md={5} lg={5} xl={5} className="about_item">
               <div className="images_container">
                   <div className="composition">
                       <img src={nat_1} alt="photo 1" className="composition__photo composition__photo-1" />

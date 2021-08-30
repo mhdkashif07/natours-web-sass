@@ -51,7 +51,7 @@ const Card = () => {
     <div>
       <Grid container justifyContent="space-evenly">
         {CARD.map((item, index) => (
-          <Grid item xs={8} sm={8} lg={3} xl={3}>
+          <Grid item xs={7} sm={7} md={3} lg={3} xl={3}>
             <div className="card" key={item.id}>
               <div className="card__side card__side--front">
                 <div

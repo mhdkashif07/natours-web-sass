@@ -25,14 +25,14 @@ ORDER: Base + typorgraphy > general layout + grid  > shape  layout  > components
     }
 
     @if $breakpoint == tab-port {
-        @media (max-width: 56.25em) { @content }; //900px
+        @media (max-width: 60em) { @content }; //960px/16
     }
 
     @if $breakpoint == tab-land {
-        @media (max-width: 75em) { @content }; //1200px
+        @media (max-width: 80em) { @content }; //1280px/16
     }
 
     @if $breakpoint == big-desktop {
-        @media (min-width: 112.5em) { @content }; //1800px
+        @media (min-width: 120em) { @content }; //1920px/16
     }
 }
