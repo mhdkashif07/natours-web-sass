@@ -24,7 +24,7 @@ const Footer = () => {
 
                     <Grid item xs={12} sm={9} md={5} lg={4} xl={4}>
                     <div className="footer__copyright">
-                        <p>Built by JONAS SCHMEDTMANN for his online course ADVANCED CSS AND SASS. Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!</p>
+                        <p>Built by JONAS SCHMEDTMANN for his online course ADVANCED CSS AND SASS. Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann!</p>
                 </div>
                     </Grid>
                 </Grid>
